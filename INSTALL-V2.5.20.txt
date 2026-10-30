@@ -1,0 +1,10 @@
+KATTERUMS JAKTLAG v2.5.20 - HEMSIDANS KALENDER
+
+Rattning:
+- Hem-sidans Nasta aktivitet uppdateras direkt fran Supabase events.
+- Uppdateringen vantar pa verklig Supabase-session, inte bara appens lokala login.
+- Nasta aktivitet ritas direkt efter molnhamtningen utan beroende av ovrig renderingskedja.
+- Ny hamtning sker nar Hem oppnas.
+- Cache/version uppdaterad till 2.5.20.
+
+Ingen ny SQL behovs. Ovriga stabila funktioner ar oforandrade.
